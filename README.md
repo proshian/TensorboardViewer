@@ -45,3 +45,8 @@ Use responsibly, preferably on vacation 🏖️
 <p align="center">
   <img src="https://github.com/user-attachments/assets/05cd2f39-7750-4937-8151-fc5e982ccd3f" alt="demo">
 </p>
+
+
+# Summary of the Code
+
+[Code summary (by Claude)](CodeInfo.md)
