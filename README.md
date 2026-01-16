@@ -29,6 +29,12 @@ A few honest notes:
 
 Use responsibly, preferably on vacation 🏖️
 
+## Installation
+
+**[Download the latest APK](https://github.com/proshian/TensorboardViewer/releases/latest/download/app-release.apk)**
+
+After downloading, you may need to enable "Install from unknown sources" in your Android settings.
+
 ## Features
 
 * **Multi-run comparison** with color-coded lines
