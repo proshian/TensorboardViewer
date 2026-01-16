@@ -1,12 +1,12 @@
 # TensorBoard Viewer for Android
 
 <p align="center">
-  <img src="readme_assets/logo.jpg" width="100">
+  <img src="readme_assets/logo.jpg" width="270">
 </p>
 
-A lightweight Android app for viewing TensorBoard training logs directly on your phone, fully offline.
+A lightweight Android app for viewing TensorBoard logs directly on your phone, fully offline.
 
-## Why this exists (a short story)
+## Why this exists
 
 I was on vacation with no laptop. Just my phone.
 Meanwhile, new experiment results kept coming in as TensorBoard logs. I wanted to check them, compare runs, *see what was going on*.
@@ -42,4 +42,6 @@ Use responsibly, preferably on vacation 🏖️
 
 ## Demo
 
-![demo](https://github.com/user-attachments/assets/05cd2f39-7750-4937-8151-fc5e982ccd3f)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/05cd2f39-7750-4937-8151-fc5e982ccd3f" alt="demo">
+</p>
