@@ -119,10 +119,17 @@ fun LogContent(
     
     if (currentTag == null) return
 
-    // Track visibility of each run
+    // Track visibility of each run across all tags (persist when switching tags)
+    val visibilityState = remember {
+        mutableStateOf<Map<String, Boolean>>(emptyMap())
+    }
+    
+    // Add any new runs to visibility state (default visible)
     val currentSequence = sequences.find { it.tag == currentTag }
-    val visibilityState = remember(currentTag) {
-        mutableStateOf(currentSequence?.runs?.associate { it.runName to true } ?: emptyMap())
+    currentSequence?.runs?.forEach { run ->
+        if (!visibilityState.value.containsKey(run.runName)) {
+            visibilityState.value = visibilityState.value + (run.runName to true)
+        }
     }
     
     // Range selection state
