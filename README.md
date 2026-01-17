@@ -15,6 +15,8 @@ Turns out there was no comfortable way to do that on Android.
 
 ~~So I made one.~~ Gemini & Claude made one. 
 
+PS. I hope you are not checking TensorBoard logs on your vacation 😅. Take a break 🏖️
+
 ## Vibe Code Alert ⚠️
 
 This app is **99.9% vibe coded**. Huge thanks to Gemini 3 Pro and Claude Sonnet 4.5.
@@ -27,7 +29,6 @@ A few honest notes:
 4. Despite all that, the app is actually useful, which is why I decided to share it.
 5. It’s provided as-is. I take no responsibility for any consequences arising from its use.
 
-Use responsibly, preferably on vacation 🏖️
 
 ## Installation
 
